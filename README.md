@@ -16,4 +16,5 @@ public void ConfigureServices(IServiceCollection services)
 ```
 
 Application path/cache/cache/{SESSIONID}.cache --> Session time , expired, sliding...
+
 Application path/cache/meta/{SESSIONID}.meta --> Session data
