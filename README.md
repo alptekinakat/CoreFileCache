@@ -4,7 +4,7 @@ Session Distuributed File Cache Library for Net Core 3.1 Web Project
 
 You can convert core5 or core6 if you want 
 
-Simple use
+Simple use in startup.cs
 
 
 
@@ -13,6 +13,14 @@ public void ConfigureServices(IServiceCollection services)
 {
  ...
   services.AddCoreFileCache("cache", 10);
+  services.AddSession(...);
+ ...
+}
+
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+ ...
+  app.UseSession();
  ...
 }
 ```
