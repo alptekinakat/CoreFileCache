@@ -1,6 +1,8 @@
 # CoreFileCache
 
-Session Distuributed File Cache for Net Core 3.1 Web Project  
+Session Distuributed File Cache Library for Net Core 3.1 Web Project
+
+You can convert core5 or core6 if you want 
 
 Simple use
 
